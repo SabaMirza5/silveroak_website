@@ -1,0 +1,442 @@
+*{
+  margin: 0;
+  padding: o;
+}
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,500;1,200&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.accordion-button::after{
+  filter: invert(1);
+}
+/* --------------- main page hero section styling----------- */
+.nav-item{
+  font-family: 'Jost', sans-serif;
+}
+.main-hero-container{
+  background: rgba(233, 245, 248, 0.43);
+  display: flex;
+}
+.display-2{
+font-family:FontsFree-Net-August-Stories-Serif-1 ;
+color: #403F3F;
+font-style: normal;
+font-weight: 400;
+font-size: 85px;
+line-height: 100px;
+}
+.main-hero-heading{
+ color:  #A06138;
+ font-style: normal;
+ font-weight: 400;
+ font-size: 70px;
+ line-height: 100px;
+}
+.main-hero-sb-heading{
+  font-family: FontsFree-Net-August-Stories-Serif-1;
+  color: #145566;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 100px;
+}
+.main-hero-para{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 70px;
+  color: #403F3F;
+}
+.btn{
+  font-family: FontsFree-Net-August-Stories-Serif-1;
+  font-family: 'Jost', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  background: #A06138;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 30px;
+  gap: 10px;
+  color: #FFFFFF;
+}
+/* --------------- Content section styling----------- */
+.heading_2{
+  font-family: 'August Stories';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 60px;
+  color: #145566;
+}
+.pera{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  color: #252525;
+}
+/* --------------- Content2 section styling----------- */
+.para3{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  text-transform: capitalize;
+  color: #252525;
+  }
+/* --------------- Content3 section styling----------- */
+.link{
+  color: #25758A;
+  text-decoration: none;
+  }
+.heading_3{
+font-family: 'August Stories';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 35px;
+text-transform: uppercase;
+color: #A06138;
+  }
+  
+  .heading_5{
+    font-family: 'August Stories';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 56px; */
+    font-size: 51px;
+    line-height: 90px;
+    color: #145566;
+
+  }
+  .pera2{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 191.5%;
+    text-transform: capitalize;
+    color: #403F3F;
+  }
+ 
+  
+  
+  .pera7{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 60px;
+    color: #252525;
+  }
+  .btn4{
+    font-family: FontsFree-Net-August-Stories-Serif-1;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    background: #A06138;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 15px 30px;
+    gap: 10px;
+    color: #FFFFFF;
+
+  }
+  .span1 {
+    vertical-align: super;
+    font-size: 10px;
+}
+
+.heading_about{
+  font-family: 'August Stories';
+font-style: normal;
+font-weight: 400;
+font-size: 62px;
+line-height: 98px;
+text-align: center;
+color: #145566;
+}
+.pera_about1{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 60px;
+  text-align: center;
+  color: #000000;
+}
+.heading-about2{
+    font-family: 'August Stories';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    text-transform: uppercase;
+    color: #A06138;
+}
+.pera_about2{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 191.5%;
+  text-transform: capitalize;
+  color: #403F3F;
+}
+.pera_about3{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  color: #252525;
+}
+.heading_about4{
+  font-family: 'August Stories';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #25758A;
+}
+.pera_about4{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 191.5%;
+    text-transform: capitalize;
+    color: #111111;
+}
+.emp_heading1{
+    font-family: 'August Stories';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 68px;
+  text-align: center;
+  color: #403F3F;
+}
+.emp_heading2{
+  font-family: 'August Stories';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 68px;
+  text-align: center;
+  color: #145566;
+}
+.emp_pera{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 163.5%;
+  color: #5A5A5A;
+}
+.emp_pera2{
+  padding-left: 215px;
+  padding-top: 5px;
+}
+.contact_heading1{
+font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 33px;
+line-height: 190.5%;
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+}
+.contact_heading2{
+  font-family: 'August Stories';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 190.5%;
+text-align: center;
+text-transform: capitalize;
+color: #A06138;
+}
+.contact_para1{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 190.5%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #252525;
+}
+  .box{
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+.form-label{
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 190.5%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #777777;
+}
+.list{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 65px;
+letter-spacing: -0.011em;
+
+color: #5A5A5A;
+}
+.service-heading1{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 29px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A06138;
+}
+.service-para1{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+/* or 250% */
+
+text-align: center;
+
+color: #5A5A5A;
+}
+.service7-heading{
+font-family:FontsFree-Net-August-Stories-Serif-1 ;
+font-style: normal;
+font-weight: 400;
+font-size: 47px;
+line-height: 144%;
+/* or 68px */
+
+text-align: center;
+
+color: #403F3F;
+}
+.service7-heading1{
+  color: #25758A;
+}
+.service7-para{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 50px;
+text-align: center;
+color: #5A5A5A;
+}
+.service5-heading{
+  font-family: 'August Stories';
+font-style: normal;
+font-weight: 400;
+font-size: 47px;
+line-height: 144%;
+/* identical to box height, or 68px */
+
+text-align: center;
+
+color: #403F3F;
+}
+.service5-heading1{
+
+color: #145566;
+}
+.list1{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 60px;
+letter-spacing: -0.011em;
+
+color: #5A5A5A;
+}
+.service6-heading1{
+  font-family: 'August Stories';
+font-style: normal;
+font-weight: 400;
+font-size: 62px;
+line-height: 151.5%;
+text-align: center;
+color: #A06138;
+}
+.service6-para{
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 21px;
+line-height: 60px;
+/* or 286% */
+
+text-align: center;
+
+color: #403F3F;
+}
+
+
+/* --------------- footer section styling----------- */
+
+  .footer{
+    background-color: #145566;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+    /* max-height: 500px;  */
+   } 
+  .footer a{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 40px;
+    color: #FFFFFF;
+    text-decoration: none;
+     
+} 
+.footer-image{
+  border-radius: 10px;
+}
+/* -------about1 styling---------- */
