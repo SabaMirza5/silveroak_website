@@ -22,7 +22,7 @@ function Services6() {
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-    <div className="row mt-5 mb-5">
+    <div className="row mt-5 mb-5 hero_heading">
        <div className="col-md-4">
           <img src={servicesimg9} alt="" className="img-fluid" />
        </div>

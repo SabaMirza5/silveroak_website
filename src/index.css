@@ -411,7 +411,10 @@ text-align: center;
 
 color: #403F3F;
 }
-
+.hero_section{
+  /* background-color: #e8f7fa;  */
+  background: rgba(233, 245, 248, 0.43);
+}
 
 /* --------------- footer section styling----------- */
 

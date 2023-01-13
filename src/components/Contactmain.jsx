@@ -3,7 +3,7 @@ import contactheroimg from '../img/contactheroimg.png'
 
 function Contactmain() {
   return (
-    <div>
+    <>
          <section>
         <div className="container-fluid">
             <div className="row">
@@ -13,7 +13,7 @@ function Contactmain() {
             </div>
         </div>
      </section>
-    </div>
+    </>
   )
 }
 

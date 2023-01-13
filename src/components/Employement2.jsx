@@ -33,7 +33,7 @@ function Employement2() {
         <div className="col-md-12 text-center">
             <img src={emp_logo} alt="" className="img img-fluid" />
         </div>
-        {/* <div className="col-md-5"></div> */}
+       
       </div>
     </div>
       

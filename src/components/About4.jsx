@@ -1,6 +1,6 @@
 import React from 'react'
 
-function About4() {
+function About4(){
   return (
     <>
       <div className="container">
