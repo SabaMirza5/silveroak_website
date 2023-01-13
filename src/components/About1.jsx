@@ -6,6 +6,7 @@ import About4 from '../img/About4.png'
 function About1() {
   return (
     <>
+    <section className="hero_section">
     <div className="container mt-5">
         <div className="row">
        <div className="col-md-6 justify-content-start">
@@ -29,7 +30,7 @@ function About1() {
         </div>
       </div>
     </div>
-      
+    </section>
     </>
   )
 }

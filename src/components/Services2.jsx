@@ -3,10 +3,11 @@ import Line from  '../img/Line.png';
 import servicesimg2 from '../img/servicesimg2.png';
 import servicesimg3 from '../img/servicesimg3.png';
 import servicesimg4 from '../img/servicesimg4.png';
+
 function Weoffer() {
   return (
     <>
-      <section>
+      <section className="hero_section">
         <div className="container mt-5 pt-5">
                          <h1 className="heading_about text-center">At Sliver Oak We Offer</h1>
                 <div className="row mt-5">

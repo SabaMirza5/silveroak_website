@@ -2,7 +2,7 @@ import React from 'react'
 import image_2 from '../img/image_2.png'
 import logo from '../img/logo.png'
 
-const Content2 = () => {
+function Content2() {
   return (
     <>
       <div className="container mt-5">
@@ -26,4 +26,4 @@ const Content2 = () => {
   )
 }
 
-export default Content2;
+export default Content2

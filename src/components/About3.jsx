@@ -4,6 +4,7 @@ import aboutlogo2 from '../img/aboutlogo2.png'
 import aboutlogo3 from '../img/aboutlogo3.png'
 import aboutlogo4 from '../img/aboutlogo4.png'
 import aboutlogo5 from '../img/aboutlogo5.png'
+
 function About3() {
   return (
     <>
@@ -19,7 +20,7 @@ function About3() {
                     allows us to know where we are excelling and where we can improve for better outcomes.</p>
             </div>
             <div className="col-md-2">
-                <img src={aboutlogo2} alt="" className="img img-fluid  " />
+                <img src={aboutlogo2} alt="" className="img img-fluid" />
                 <h1 className="heading-about2">accountability</h1>
                 <p className="pera_about2">ivy employees make a personal decision to take
                     ownership of outcomes. creating an environment of
@@ -35,7 +36,7 @@ function About3() {
                     considerate, showing positive actions to our team,
                     and elevating one another through kindness.
                     remember; Teamwork makes the dream work".</p>
-                                </div>
+              </div>
             <div className="col-md-2">
                 <img src={aboutlogo4} alt="" className="img img-fluid" />
                 <h1 className="heading-about2">excellence</h1>
@@ -43,7 +44,7 @@ function About3() {
                     by working had, staying focused, and being a 
                     positive, we can continue to yield the best result for
                     out residents and staff.</p>
-                                </div>
+            </div>
             <div className="col-md-2">
                 <img src={aboutlogo5} alt="" className="img img-fluid " />
                 <h1 className="heading-about2">solutions</h1>

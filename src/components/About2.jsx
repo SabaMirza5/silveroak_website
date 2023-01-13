@@ -1,6 +1,6 @@
 import React from 'react'
 
-const About2 = () => {
+function About2() {
   return (
     <>
       <div className="container">

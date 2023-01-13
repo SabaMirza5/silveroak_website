@@ -5,7 +5,7 @@ import servicesimg8 from '../img/servicesimg8.png'
 function Services5() {
   return (
     <>
-    <section>
+    <section className="hero_section ">
         <div className="container">
     <div className="row mt-5">
        <div className="col-md-4">

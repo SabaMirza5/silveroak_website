@@ -3,7 +3,8 @@ import image_42 from'../img/image_42.png'
 import facebook from'../img/facebook.png'
 import twitter from'../img/twitter.png'
 import instagrame from'../img/instagrame.png'
-const Footer = () => {
+
+function Footer() {
 
 return (
 	<>
@@ -39,7 +40,7 @@ return (
 		</div>
 		</div>
 		</section>
-		<div className=" my-4 text-center">
+		<div className="hero_section my-4 text-center">
 			<h6>© 2021 ivyhealthcaregroup. All Rights Reserved</h6>
 		</div>
 		
@@ -47,4 +48,4 @@ return (
 	</>
 );
 };
-export default Footer;
+export default Footer

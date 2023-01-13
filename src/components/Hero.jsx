@@ -3,9 +3,10 @@ import Vector1 from '../img/Vector1.png'
 
 
 
-const Hero = () => {
+function Hero (){
   return (
   <>
+  <section className="hero_section">
   <div className="container-fluid">
     <div className="row">
             <div className="col-md-6 mt-5">
@@ -23,6 +24,7 @@ const Hero = () => {
               </div>
     </div>
 </div>
+</section>
     </>
   )
 }
