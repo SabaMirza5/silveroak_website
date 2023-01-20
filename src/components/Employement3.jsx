@@ -13,12 +13,7 @@ function Employement3() {
   return (
     <>
       <div className="container">
-        <div className="row">
-          <div className="col-md-12">
-            <img src={empusers} alt="" className="img img-fluid" />
-          </div>
-        </div>
-        <div className="row">
+        <div className="row hero_section">
             <div className="col-md-6">
                 <h1 className="heading_2">Compitative Pay and Full Benifits Include</h1>
                 <div className="row ">
@@ -29,7 +24,7 @@ function Employement3() {
                             <li className="list my-3"><img src={em3} alt="" className="img img-fluid mx-2 mt-2" />Free Life Insurance</li>
                         </ul>
                     </div>
-                    <div className="col-md-6 mt-5">
+                    <div className="col-md-6 mt-5  d-flex">
                     <ul className="list-unstyled">
                             <li className="list"><img src={em4} alt="" className="img img-fluid mx-2" />medical</li>
                             <li className="list my-2"><img src={em5} alt="" className="img img-fluid mx-2 mt-2" />Vision</li>
@@ -42,11 +37,13 @@ function Employement3() {
                 <img src={emp2} alt="img here" className="img img-fluid" />
             </div>
         </div>
-        <div className="row mb-5 mt-5 mx-5">
-          <div className="col-md-10">
-             <h1 className="heading_2">Call Our Friendly Admissions Team Today!</h1>
+        <div className="row my-5 fb-sec2 align-items-center justify-content-center">
+          <div className="col-md-9">
+             <h2 className="">Call Our Friendly Admissions Team Today!</h2>
           </div>
-          <div className="col-md-2 mt-2"> <button className="btn text-white text-center">Call Us Today</button> </div>
+          <div className="col-md-3 col-lg-2 text-center text-md-start">
+             <button className="btn text-white text-center">Call Us Today</button>
+         </div>
       </div>
       </div>
     </>
