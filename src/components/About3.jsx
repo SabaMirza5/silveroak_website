@@ -9,17 +9,17 @@ function About3() {
   return (
     <>
       <div className="container pt-5">
-        <div className="row align-items-center d-flex justify-content-center">
+        <div className="row d-flex justify-content-center">
         <h1 className="heading_about text-center">CORE VALUES</h1>
             <p className="pera_about1 text-center">IVY HEALTHCARE</p>
-            <div className="col-md-2">
+            <div className="col-md-5 col-lg-2 crd-1 text-center text-md-start me-0 me-md-5">
                 <img src={aboutlogo1} alt="" className="img img-fluid " />
                 <h1 className="heading-about2">communication</h1>
                 <p className="pera_about2">Consistent, honest, and transparent communication
                     with our residents, families, and staff.
                     allows us to know where we are excelling and where we can improve for better outcomes.</p>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-5 col-lg-2 crd-1 text-center text-md-start me-0 me-md-5">
                 <img src={aboutlogo2} alt="" className="img img-fluid" />
                 <h1 className="heading-about2">accountability</h1>
                 <p className="pera_about2">ivy employees make a personal decision to take
@@ -29,7 +29,7 @@ function About3() {
                     better outcomes for our residents.
                 </p>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-5 col-lg-2 crd-1 text-center text-md-start me-0 me-md-5">
                 <img src={aboutlogo3} alt="" className="img img-fluid " />
                 <h1 className="heading-about2">respect</h1>
                 <p className="pera_about2">respect is at the foundation of teamwork. being
@@ -37,7 +37,7 @@ function About3() {
                     and elevating one another through kindness.
                     remember; Teamwork makes the dream work".</p>
               </div>
-            <div className="col-md-2">
+            <div className="col-md-5 col-lg-2 crd-1 text-center text-md-start me-0 me-md-5">
                 <img src={aboutlogo4} alt="" className="img img-fluid" />
                 <h1 className="heading-about2">excellence</h1>
                 <p className="pera_about2">employees at ivy focus on making everyday a success.
@@ -45,7 +45,7 @@ function About3() {
                     positive, we can continue to yield the best result for
                     out residents and staff.</p>
             </div>
-            <div className="col-md-2">
+            <div className="col-md-5 col-lg-2 crd-1 text-center text-md-start me-0 me-md-5">
                 <img src={aboutlogo5} alt="" className="img img-fluid " />
                 <h1 className="heading-about2">solutions</h1>
                 <p className="pera_about2">we are committed to being a solutions based company.

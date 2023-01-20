@@ -6,20 +6,20 @@ function Services5() {
   return (
     <>
     <section className="hero_section ">
-        <div className="container">
-    <div className="row mt-5">
-       <div className="col-md-4">
-          <img src={servicesimg8} alt="" className="img-fluid" />
+        <div className="container mt-5">
+    <div className="row ">
+       <div className="col-md-4 service_image">
+          <img src={servicesimg8} alt="" className=" img img-fluid" />
        </div>
        <div className="col-md-8">
-        <h2 className="service5-heading text-center">
+        <h2 className="service5-heading text-center mt-5">
         OUR REHAB PROGRAM <span className="service5-heading1">OFFERS</span>
         </h2>
-        <div className="row mx-5">
+        <div className="row mx-0 mx-md-5 mt-5">
             <div className="col-md-6 ">
             <ul className="list-unstyled">
                                 <li className="list1"><img src={Line} alt=""  className="img-fluid mx-2" />
-                                <b>Physical, Occupational, & Speech Therapy Up to 7 Days a Week</b>
+                                <b>Physical, Occupational, & Speech Therapy<br className='d-none d-md-block'/>Up to 7 Days a Week</b>
                                 </li>
                                 <li className="list1"><img src={Line} alt=""  className="img-fluid mx-2" />
                                 <b>Cutting-Edge Techniques & Modalities</b>

@@ -12,16 +12,11 @@ function Employement1() {
         </div>
         <div className="row mb-5 mt-5 text-center  justify-content-center">
           <div className="col-md-10">
-              <h1 className="emp_heading1 mt-5 text-center">Do You Want to Work Somewhere</h1>
-            <div>
-              <span className="emp_heading2">Meaningful?  <span > <a className="btn4" href="">CURRENT OPENINGS</a> </span></span>
-            </div>
+              <h1 className="emp_heading1 mt-5 text-center">Do You Want to Work Somewherebr<br/><span className="main-color">Meaningful? </span><button className="btn text-white">CURRENT OPENINGS</button></h1>
+
           </div>
-          
       </div>
-        
     </div>
-      
     </>
   )
 }

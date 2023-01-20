@@ -20,26 +20,42 @@ code {
   filter: invert(1);
 }
 /* --------------- main page hero section styling----------- */
-.nav-item{
-  font-family: 'Jost', sans-serif;
-}
 .main-hero-container{
   background: rgba(233, 245, 248, 0.43);
   display: flex;
+}
+.navbar{
+  background-color: transparent !important;
+}
+.nav-item{
+  font-family: "Jost", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  margin-right: 30px !important;
+  color: black !important;
+}
+.nav-links{
+  font-family: "Jost", sans-serif !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  margin-right: 30px !important;
+  color: black !important;
 }
 .display-2{
 font-family:FontsFree-Net-August-Stories-Serif-1 ;
 color: #403F3F;
 font-style: normal;
 font-weight: 400;
-font-size: 85px;
+font-size: 94px;
 line-height: 100px;
 }
 .main-hero-heading{
  color:  #A06138;
  font-style: normal;
  font-weight: 400;
- font-size: 70px;
+ font-size: 94px;
  line-height: 100px;
 }
 .main-hero-sb-heading{
@@ -47,7 +63,7 @@ line-height: 100px;
   color: #145566;
   font-style: normal;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 47px;
   line-height: 100px;
 }
 .main-hero-para{
@@ -55,7 +71,7 @@ line-height: 100px;
   font-style: normal;
   font-weight: 500;
   font-size: 26px;
-  line-height: 70px;
+  line-height: 24px;
   color: #403F3F;
 }
 .btn{
@@ -68,7 +84,6 @@ line-height: 100px;
   border: 1px solid #FFFFFF;
   border-radius: 10px;
   box-sizing: border-box;
-  display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -98,7 +113,7 @@ line-height: 100px;
   font-family: 'Jost';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 60px;
   text-transform: capitalize;
   color: #252525;
@@ -162,7 +177,7 @@ color: #A06138;
     gap: 10px;
     color: #FFFFFF;
 
-  }
+  } 
   .span1 {
     vertical-align: super;
     font-size: 10px;
@@ -190,19 +205,21 @@ color: #145566;
     font-family: 'August Stories';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 32px;
+    margin-top: 29px;
     line-height: 35px;
     text-transform: uppercase;
     color: #A06138;
 }
 .pera_about2{
-  font-family: 'Jost';
+  font-family: "Jost";
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 18px;
   line-height: 191.5%;
   text-transform: capitalize;
-  color: #403F3F;
+  color: #403f3f;
+  margin-top: 20px;
 }
 .pera_about3{
   font-family: 'Jost';
@@ -255,11 +272,29 @@ color: #145566;
   font-size: 19px;
   line-height: 163.5%;
   color: #5A5A5A;
+} 
+.empl-head1 p{
+  font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 163.5%;
+    color: #5a5a5a;
+    margin-left: 20px;
 }
-.emp_pera2{
+.empl-head2 p{
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 163.5%;
+  color: #5a5a5a;
+  margin-left: 20px
+}
+/* .emp_pera2{
   padding-left: 215px;
   padding-top: 5px;
-}
+} */
 .contact_heading1{
 font-family: 'Jost';
 font-style: normal;
@@ -310,7 +345,7 @@ color: #A06138;
   font-family: 'Jost';
 font-style: normal;
 font-weight: 500;
-font-size: 17px;
+font-size: 28px;
 line-height: 65px;
 letter-spacing: -0.011em;
 
@@ -364,6 +399,16 @@ line-height: 50px;
 text-align: center;
 color: #5A5A5A;
 }
+/* .secd-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  color: #252525;
+  margin-top: 50px;
+} */
 .service5-heading{
   font-family: 'August Stories';
 font-style: normal;
@@ -403,7 +448,7 @@ color: #A06138;
   font-family: 'Jost';
 font-style: normal;
 font-weight: 400;
-font-size: 21px;
+font-size: 24px;
 line-height: 60px;
 /* or 286% */
 
@@ -415,31 +460,552 @@ color: #403F3F;
   /* background-color: #e8f7fa;  */
   background: rgba(233, 245, 248, 0.43);
 }
+.team-sec h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 62px;
+  line-height: 98px;
+  color: #145566;}
 
-/* --------------- footer section styling----------- */
-
-  .footer{
-    background-color: #145566;
-    font-family: 'Jost';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 40px;
-    color: #FFFFFF;
-    text-decoration: none;
-    /* max-height: 500px;  */
-   } 
-  .footer a{
-    font-family: 'Jost', sans-serif;
+.team-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 74px;
+  color: #403f3f;
+  margin-top: 50px;
+}
+.mng-crd h3 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #25758A;}
+  .mng-crd p {
+    font-family: "Jost";
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 40px;
-    color: #FFFFFF;
-    text-decoration: none;
-     
-} 
-.footer-image{
-  border-radius: 10px;
+    line-height: 191.5%;
+    text-transform: capitalize;
+    color: #111111;}
+    .fb-sec h2 {
+      font-family: august2;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 56px;
+      text-align: center;
+      margin-top: 100px;
+  }
+  .cont{
+    margin-top: 15px;
+    font-family: august2;
+      font-style: normal;
+      font-weight: 400;
+  }
+  .cont_box p{
+    font-size: 24px;
+  }
+  .fb-sec .btn {
+    margin-top: 90px !important;
+    margin-left: -47px!important;
+}
+.fb-sec1 h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  text-align: center;
+  margin-top: 100px;
+}
+.fb-sec1 .btn {
+  margin-top: 90px !important;
+  margin-left: -363px!important;
+}
+.fb-sec2 h2 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  text-align: center;
+  margin-top: 100px;
+}
+.fb-sec2 .btn {
+  margin-top: 93px !important;
+  margin-left: -158px!important;
+}
+
+
+.miss-sec h2{
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 98px;
+  text-align: center;
+  color: #145566;
+}
+.miss-sec p{
+  font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+}
+.secd-sec p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  color: #252525;
+  margin-top: 50px;
+}
+.offer-sec h2{
+  font-family: august2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 68px;
+    color: #145566;
+}
+.offer-sec ul li {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #5a5a5a;
+  margin-bottom: 15px;}
+  .rehab-crd h3 {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #a06138;
+    margin-top: 70px;
+}
+.rehab-crd p {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #5a5a5a;
+}
+.card {
+  width: 100% !important;
+  border-radius: 20px !important;
+}
+.card-title {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 47px;
+  line-height: 144%;
+  color: #403f3f;
+}
+.card-text {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  text-align: center;
+  color: #5a5a5a;
+}
+.main-color {
+  color: #a06138 !important;
+}
+/* --------------- footer section styling----------- */
+
+.footer{
+  margin-top: 100px;
+  background-color: #145566;
+}
+.footer ul{
+  padding-left: 0px !important;
+  list-style: none;
+}
+.footer ul li{
+  font-family: "Jost" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  margin-bottom: 20px !important;
+  color: #ffffff !important
+}
+.footer h3{
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+}
+ .footer a{
+  text-decoration: none !important;
+  color: #fff !important;
+}
+footer h4{
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #ffffff;
+}
+footer p{
+  font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+.cpy-rt h4{
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  color: #111111;
+  padding: 30px 0px;
+}
+.mng-crd h3 {
+  font-family: august2;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 37px;
+  text-transform: uppercase;
+      color: #25758A;}
+.secd-sec h2 {
+    font-family: august2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    color: #145566;
+}
+      
+.form-control{
+  border: none !important;
+  border-bottom: 1px solid #777777 !important;
+  border-radius: 0px !important;
+  margin-top: 20px;
+  font-family: "Jost" !important;
+  font-weight: 500 !important;
+  font-size: 24px !important;
+  line-height: 190.5% !important;
+  text-transform: capitalize !important;
+  color: #777777 !important;
+  background-color: transparent !important;
+}
+main-color{
+  color: #25758A;
 }
 /* -------about1 styling---------- */
+@media screen and (min-width: 1780px){
+.container {
+    max-width: 1780px !important;
+}
+}
+@media screen and (max-width: 767px)
+{
+  .main-hero-head1{
+    font-size: 38px;
+  }
+  .main-hero-heading{
+    font-size: 44px;
+  }
+  .display-2{
+    line-height: 15px;
+  }
+  .main-hero-sb-heading{
+    
+    font-size: 47px;
+    line-height: 63px;
+  }
+  .main-hero-para{
+ 
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .secd-sec h2{
+    font-size: 40px;
+  }
+  .secd-sec p{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 20px;
+  }
+  .heading_2 {
+    font-size: 35px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+  .fb-sec h2{
+    font-size: 39px;
+  } 
+  .fb-sec .btn {
+    margin-top: 44px !important;
+    margin-left: 26px!important;
+}
+.footer h3{
+  margin-top: 30px;
+}
+.pera_about3{
+  font-size: 16px;
+  line-height: 30px
+}
+.miss-sec h2 {
+  font-size: 48px;
+  line-height: 58px;
+}
+.miss-sec p {
+  font-size: 18px;
+  line-height: 40px;
+}
+.heading_about{
+  font-size: 52px;
+}
+.pera_about1{
+  font-size: 25px;
+    line-height: 27px;
+    margin-bottom: 40px;
+}
+.team-sec h2 {
+  font-size: 45px;
+  line-height: 60px;
+}
+.team-sec p {
+  font-size: 20px;
+  line-height: 48px;
+}
+.fb-sec1 h2 {
+  font-size: 47px;
+  margin-top: 100px;
+}
+.fb-sec1 .btn {
+  margin-top: 35px !important;
+  margin-left: -19px!important;
+}
+.offer-sec ul li{
+  font-size: 23px;
+    line-height: 29px;
+}
+.service5-heading{
+  font-size: 44px;
+    line-height: 125%;
+}
+.emp_heading1{
+  font-size: 45px;
+    line-height: 63px;
+}
+.fb-sec2 h2{
+  font-size: 50px;
+}
+.fb-sec2 .btn {
+  margin-top: 31px !important;
+  margin-left: -15px!important;
+}
+.contact_heading1{
+  font-size: 29px;
+}
+.contact_heading2{
+  font-size: 59px;
+  line-height: 117.5%;
+}
+.contact_para1{
+  font-size: 24px;
+  line-height: 182.5%;
+}
+}
+@media (min-device-width: 768px) and (max-device-width: 1080px){
+  .display-2 {
+    font-size: 48px;
+    line-height: 38px;
+    margin-top: 47px
+}
+.main-hero-heading {
+  font-size: 48px;
+  line-height: 76px;
+}
+.main-hero-sb-heading {
+  font-size: 33px;
+  line-height: 41px;
+}
+.main-hero-para {
+  font-size: 22px;
+  line-height: 26px;
+}
+.secd-sec h2 {
+  font-size: 48px;
+}
+.secd-sec p {
+  font-size: 16px;
+  line-height: 37px;
+}
+/* .secd-sec img{
+  margin-top: 67px;
+} */
+.home_button{ 
+  margin-bottom: 20px!important;  
+}
+.heading_2 {
+  font-size: 47px;
+}
+.fb-sec h2 {
+  font-size: 50px;
+  margin-top: 41px;
+}
+.fb-sec .btn {
+  margin-left: -180px!important;
+}
+.pera_about3 {
+  font-size: 20px;
+  line-height: 30px;
+}
+.miss-sec h2 {
+  font-size: 44px;
+  line-height: 63px
+}
+.miss-sec p {
+  font-size: 20px;
+  line-height: 45px;
+}
+.heading_about {
+  font-size: 47px;
+  line-height: 32px;
+}
+.heading-about2 {
+  font-size: 21px;
+  margin-top: 22px;
+  line-height: 23px;
+ 
+}
+.pera_about2 {
+  font-size: 12px;
+    line-height: 180.5%;
+    margin-top: 16px;
+}
+/* .team-sec h2 {
+  font-size: 62px;
+  line-height: 98px;
+} */
+.team-sec p {
+  
+  font-size: 20px;
+  line-height: 51px;
+}
+.mng-crd h3 {
+  font-size: 25px;
+  line-height: 33px
+
+}
+.mng-crd p {
+  font-size: 15px;
+  line-height: 150.5%;
+}
+.fb-sec1 h2 {
+  font-size: 48px;
+}
+.fb-sec1 .btn {
+  margin-top: 148px !important;
+  margin-left: -397px!important;
+}
+.footer h3 {
+  font-size: 22px;
+    margin-top: -16px;
+}
+.offer-sec h2 {
+  font-size: 48px;
+}
+.offer-sec ul li {
+  font-size: 13px;
+  line-height: 20px;
+}
+.team-sec h2 {
+  font-size: 48px;
+  line-height: 81px;
+}
+.rehab-crd p {
+  font-size: 18px;
+    line-height: 28px;
+}
+.rehab-crd h3 {
+  font-size: 20px;
+  line-height: 27px;
+}
+.card-title {
+  font-size: 34px;
+  line-height: 133%;
+}
+.card-text {
+  font-size: 18px;
+    line-height: 33px
+}
+.service5-heading {
+  font-size: 40px;
+  line-height: 52%;
+ 
+}
+.list1 {
+  font-size: 18px;
+  line-height: 39px;
+  
+}
+.service_image{
+  margin-top: 103px;
+}
+.service6-heading1 {
+  font-size: 48px;
+  line-height: 77.5%;
+}
+.service6-para {
+  
+  font-size: 20px;
+  line-height: 47px;
+}
+.emp_heading1 {
+  font-size: 48px;
+  line-height: 60px;
+}
+.empl-head1 p {
+  font-size: 17px;
+  line-height: 140.5%;
+  /* margin-left: 20px; */
+}
+.empl-head2 p {
+  font-size: 18px;
+  line-height: 114.5%;
+}
+.list {
+  font-size: 18px;
+  line-height: 54px;
+}
+.fb-sec2 h2 {
+  font-size: 48px;
+}
+.fb-sec2 .btn {
+  margin-top: 150px !important;
+  margin-left: -281px!important;
+}
+.contact_heading1 {
+  font-size: 20px;
+}
+.contact_heading2 {
+  font-size: 48px;
+}
+.contact_para1 {
+  font-size: 20px;
+}
+.cont_box p {
+  font-size: 17px;
+}
+}

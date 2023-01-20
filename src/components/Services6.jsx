@@ -7,7 +7,7 @@ function Services6() {
     <>
     <section>
         <div className="container">
-            <div className="row mt-5">
+            <div className="row mt-5 justify-content-center ">
                 <div className="col-md-12">
                     <h1 className="service6-heading1 text-center">AMENITIES</h1>
                     </div>
@@ -22,16 +22,16 @@ function Services6() {
                     </div>
                     <div className="col-md-2"></div>
                 </div>
-    <div className="row mt-5 mb-5 hero_heading">
-       <div className="col-md-4">
+    <div className="row mt-5 mb-5 hero_heading hero_section">
+       <div className="col-md-4 service_image">
           <img src={servicesimg9} alt="" className="img-fluid" />
        </div>
        <div className="col-md-8">
-        <h2 className="main-heading text-center">
-        OUR AMENITIES INCLUDE
+        <h2 className="main-heading text-center mt-5">
+        OUR <span className='main-color'>AMENITIES</span> INCLUDE
         </h2>
-        <div className="row mx-5">
-            <div className="col-md-6 ">
+        <div className="row mx-0 mx-md-5 mt-5">
+            <div className="col-md-6  ">
             <ul className="list-unstyled">
                                 <li className="listt"><img src={Line} alt=""  className="img-fluid mx-2" />
                                 <b>Well-Appointed Private</b>
